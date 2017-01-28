@@ -41,5 +41,27 @@ header {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-image: ;
+	background-image: url('../images/seigaiha.png');
+	background-repeat: repeat;
+}
+
+.about-me-content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.main-content {
+	padding: 10px;
+	width: 650px;
+	float: left;
+}
+
+.connect-with-me {
+	padding: 10px;
+	width: 270px;
+	float: right;
+}
+
+footer {
+	width: 100%;
 }
