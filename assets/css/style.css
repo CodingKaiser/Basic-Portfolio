@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-wrapper {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #4aaaa5;
+	height: 100px;
+}
+
+.header-1 {
+	margin: 0 auto;/* centers */
+	width: 960px;
+	height: 100px;
+	overflow: hidden;
+}
+
+header {
+	float: left;
+	padding: 32px;
+	background-color: #ffffff;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100%;
+}
+
+.navigation-bar {
+	float: right;
+	background-color: orange;
+	margin: auto;
+}
+
+.main-content-wrapper {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: ;
+}
