@@ -2,6 +2,14 @@
 	margin: 0px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -24,21 +32,26 @@ body {
 
 header {
 	float: left;
-	padding: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
 	background-color: #ffffff;
-	margin-top: auto;
-	margin-bottom: auto;
 	height: 100%;
+
 }
 
 .navigation-bar {
+	display: table-cell;
+	vertical-align: middle;
 	float: right;
 	background-color: orange;
-	margin: auto;
 }
 
 .main-content-wrapper {
+	display: block;
 	width: 100%;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	background-image: url('../images/seigaiha.png');
@@ -63,5 +76,11 @@ header {
 }
 
 footer {
-	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #666666;
+	text-align: center;
 }
