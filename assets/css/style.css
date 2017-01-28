@@ -13,6 +13,8 @@ p {
 body {
 	margin: 0px;
 	padding: 0px;
+	background-image: url('../images/seigaiha.png');
+	background-repeat: repeat;
 }
 
 .header-wrapper {
@@ -49,13 +51,11 @@ header {
 }
 
 .main-content-wrapper {
-	display: block;
 	width: 100%;
 	height: 100%;
+	overflow: auto;
 	margin: 0px;
 	padding: 0px;
-	background-image: url('../images/seigaiha.png');
-	background-repeat: repeat;
 }
 
 .about-me-content {
@@ -83,4 +83,23 @@ footer {
 	padding: 1rem;
 	background-color: #666666;
 	text-align: center;
+}
+
+.image {
+	position: relative;
+	width: 200px;
+}
+
+.port-images {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+
+.left-image {
+	float: left;
+}
+
+.right-image {
+	float: right;
 }
