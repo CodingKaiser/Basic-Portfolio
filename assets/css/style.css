@@ -31,7 +31,12 @@ hr.contact-me {
 	color: #4aaaa5;
 }
 
+html {
+	height: 100%; /*ADDED FOR STICKY FOOTER*/
+}
+
 body {
+	height: 100%; /*ADDED FOR STICKY FOOTER*/
 	margin: 0px;
 	padding: 0px;
 	background-image: url('../images/seigaiha.png');
@@ -115,6 +120,9 @@ header {
 	overflow: auto;
 	margin: 0px;
 	padding: 0px;
+	min-height: 100%; /*ADDED FOR STICKY FOOTER*/
+	height: auto !important; /*ADDED FOR STICKY FOOTER*/
+	margin: 0 auto -108px; /*ADDED FOR STICKY FOOTER*/
 }
 
 .about-me-content {
@@ -150,9 +158,13 @@ article {
 
 /* FOOTER */
 
+.push {
+	height: 120px;
+}
+
 footer {
 	clear: both;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	padding: 40px;
 	background-color: #666666;
 	text-align: center;
