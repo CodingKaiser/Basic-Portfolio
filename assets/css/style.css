@@ -1,4 +1,4 @@
-/*GENERAL SETTINGS */
+/*GENERAL SETTINGS*/
 
 * {
 	margin: 0px;
@@ -127,16 +127,17 @@ header {
 
 .about-me-content {
 	margin: 0 auto;
+	padding-bottom: 15px;
 	overflow: auto;
 	width: 960px;
 }
 
 .main-content {
-	margin-right: 20px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	padding: 35px;
-	width: 570px;
+	width: 580px;
 	float: left;
 	background-color: #ffffff;
 	border: 0.5px solid #dddddd
@@ -147,8 +148,8 @@ article {
 }
 
 .connect-with-me {
-	margin-left: 20px;
-	margin-top: 20px;
+	margin-left: 15px;
+	margin-top: 15px;
 	padding: 30px;
 	width: 210px;
 	float: right;
@@ -158,7 +159,7 @@ article {
 
 /* FOOTER */
 
-.push {
+.push { /*ADDED FOR STICKY FOOTER */
 	height: 120px;
 }
 
@@ -206,7 +207,8 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
-	background: white;
+	background-color: #4aaaa5;
+	color: white;
 	top: 130px;
 }
 
